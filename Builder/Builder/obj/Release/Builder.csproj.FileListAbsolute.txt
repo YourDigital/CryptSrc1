@@ -1,0 +1,10 @@
+D:\HasteCrypt\Builder\Builder\bin\Release\Builder.exe.config
+D:\HasteCrypt\Builder\Builder\bin\Release\Builder.exe
+D:\HasteCrypt\Builder\Builder\bin\Release\Builder.pdb
+D:\HasteCrypt\Builder\Builder\bin\Release\Ionic.Zlib.dll
+D:\HasteCrypt\Builder\Builder\obj\Release\Builder.DisabledForm.resources
+D:\HasteCrypt\Builder\Builder\obj\Release\Builder.MainForm.resources
+D:\HasteCrypt\Builder\Builder\obj\Release\Builder.Properties.Resources.resources
+D:\HasteCrypt\Builder\Builder\obj\Release\Builder.csproj.GenerateResource.Cache
+D:\HasteCrypt\Builder\Builder\obj\Release\Builder.exe
+D:\HasteCrypt\Builder\Builder\obj\Release\Builder.pdb

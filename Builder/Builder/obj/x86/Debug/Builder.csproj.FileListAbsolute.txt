@@ -1,0 +1,12 @@
+D:\HasteCrypt\Builder\Builder\bin\x86\Debug\Builder.exe.config
+D:\HasteCrypt\Builder\Builder\bin\x86\Debug\Builder.exe
+D:\HasteCrypt\Builder\Builder\bin\x86\Debug\Builder.pdb
+D:\HasteCrypt\Builder\Builder\bin\x86\Debug\Ionic.Zlib.dll
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.DisabledForm.resources
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.MainForm.resources
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.Properties.Resources.resources
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.csproj.GenerateResource.Cache
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.exe
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.pdb
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.csprojResolveAssemblyReference.cache
+D:\HasteCrypt\Builder\Builder\obj\x86\Debug\Builder.LoadingForm.resources

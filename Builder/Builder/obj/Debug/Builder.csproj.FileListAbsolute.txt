@@ -1,0 +1,10 @@
+D:\HasteCrypt\Builder\Builder\bin\Debug\Builder.exe.config
+D:\HasteCrypt\Builder\Builder\bin\Debug\Builder.exe
+D:\HasteCrypt\Builder\Builder\bin\Debug\Builder.pdb
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.csprojResolveAssemblyReference.cache
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.Properties.Resources.resources
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.csproj.GenerateResource.Cache
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.exe
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.pdb
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.MainForm.resources
+D:\HasteCrypt\Builder\Builder\obj\Debug\Builder.DisabledForm.resources
